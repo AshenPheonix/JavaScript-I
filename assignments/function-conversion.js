@@ -29,7 +29,8 @@ add(1,2)
 // };
 // subtract(1,2);
 
-
+let subract=(param1, param2)=>param1-param2
+subract(1,2)
 // Stretch
 
 // exampleArray = [1,2,3,4];
@@ -37,3 +38,6 @@ add(1,2)
 //   return num * 3;
 // });
 // console.log(triple);
+let exampleArray=[1,2,3,4]
+const triple=exampleArray.map(num=>num*3)
+console.log(triple);
